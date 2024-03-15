@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "exporpc",
+    "slug": "exporpc",
+    "version": "1.0.0",
+    "scheme": "exporpc",
+    "orientation": "portrait",
+    "icon": "./sa-assets/Icon/sfLogoAppIcon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./sa-assets/Icon/sfLogoAppSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#CCD1D9"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "userInterfaceStyle": "automatic",
+      "icon": "./sa-assets/Icon/sfLogoAppIconIos.png",
+      "bundleIdentifier": "com.yige.exporpc",
+      "config": { "usesNonExemptEncryption": false },
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "sf2Pro uses your camera to collect and upload info for business communication purpose.",
+        "NSMicrophoneUsageDescription": "sf2Pro uses your microphone to collect and upload info for business communication purpose.",
+        "NSPhotoLibraryUsageDescription": "sf2Pro uses your photo library info to facilitate your business communication.",
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./sa-assets/Icon/sfLogoAppIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.yige.exporpc",
+      "userInterfaceStyle": "light",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./sa-assets/Icon/sfLogoAppIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a85f52a1-6fe6-46bc-9f3f-7d8e65881c0b"
+      }
+    },
+    "owner": "alickcai"
+  }
+}
